@@ -1,13 +1,17 @@
-## Some useful setup commands
+# Some useful setup commands
 
 ```bash
 sudo apt-get update
+```
 
 # Python and PIP
+```bash
 sudo apt-get install python3
 sudo apt-get install python-pip
+```
 
 # AWS CLI
+```bash
 sudo pip install awscli
 aws help
 sudo pip install groff # May be needed if aws help complains
