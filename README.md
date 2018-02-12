@@ -15,5 +15,13 @@ sudo pip install less  # May be needed if aws help complains
 ```
 
 # Git
-
+```bash
 git config --global push.default simple
+git clone git@github.com:paulseagrave/environment.git
+git remote add origin https://github.com/paulseagrave/environment.git
+cd environment
+echo '#Environment' > README.md
+git add README.md
+git commit -m "Initial commit"
+git push origin master
+```
